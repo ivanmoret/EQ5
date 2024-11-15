@@ -4,4 +4,4 @@ from .models import Fotos
 
 # Create your views here.
 def post_list(request):
-    return render(request, 'blog/Fotos_list.html', {})
+    return render(request, 'picts/Fotos_list.html', {})
